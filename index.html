@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="spotify.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.js"
+      integrity="sha512-bUju8VkXhCQgW7zCHSdiIDpECo/lqzChkKrKoc1v2PL2XqO/0Q2Y8dhu07+q6Rk+1c1xr6cfE0VZnumgwy93Ig=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <style>
+    ::-webkit-scrollbar {
+      width: 0;
+    }
+  </style>
+
+  <body class="bg-black">
+    <section class="flex flex-row font-bold">
+      <div class="left w-[20%] h-[86]">
+        <div class="bg-[#ffffff15] text-white rounded-md m-2 p-4 h-[21vh]">
+          <ul class="p-2">
+            <li class="flex pb-4">
+              <span class="w-8 h-6"><i class="fa-brands fa-spotify"></i></span>
+              <h3 class="">Spotify</h3>
+            </li>
+            <li class="flex pb-4">
+              <span class="w-8"><i class="fa-solid fa-house"></i></span>
+              <h3>Home</h3>
+            </li>
+            <li class="flex">
+              <span class="w-8"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <h3>Search</h3>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="bg-[#ffffff15] text-gray-400 rounded-md p-4 font-xl m-2 h-[63vh]"
+        >
+          <ul>
+            <li class="flex justify-between px-2 pb-4">
+              <div class="flex gap-2">
+                <span><i class="fa-solid fa-book"></i></span>
+
+                <h3>Your Library</h3>
+              </div>
+              <span class=""><i class="fa-solid fa-plus"></i></span>
+            </li>
+            <li class="h-48 overflow-y-auto">
+              <div class="text-white p-4 bg-neutral-800 rounded-lg mb-2">
+                <h2>Create your first playlist</h2>
+                <h2 class="font-normal">It's easy, we'll help you</h2>
+                <button
+                  class="border-2 rounded-lg text-black bg-white px-2 mt-4"
+                >
+                  Create playlist
+                </button>
+              </div>
+              <div class="text-white bg-neutral-800 rounded-lg p-4">
+                <h2>Let's find some podcasts to follow</h2>
+                <h2 class="font-normal">
+                  we'll keep you updated on new episodes
+                </h2>
+                <button
+                  class="border-2 rounded-lg text-black bg-white px-2 mt-4"
+                >
+                  Browse podcasts
+                </button>
+              </div>
+            </li>
+          </ul>
+          <ul class="text-xs mt-10">
+            <li class="justify-evenly">
+              <a href="">Legal</a>
+              <a href="">Safety & Privacy Center</a>
+              <a href="">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="">Cookies</a>
+              <a href="">About Ads</a>
+              <a href="">Accessibility</a>
+            </li>
+            <li>
+              <a href="">Cookies</a>
+            </li>
+          </ul>
+          <button class="border-2 text-white rounded-xl px-4 mt-10 py-1 gap-2">
+            <i class="fa-solid fa-globe"></i>English
+          </button>
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="right w-[80%] h-[86vh] overflow-y-auto">
+        <div class="bg-black sticky top-0 flex justify-between px-4 pb-2">
+          <div class="px-4 py-2 pt-6">
+            <span
+              class="border-2 border-black text-white bg-black rounded-full px-2"
+              ><i class="fa-solid fa-chevron-left"></i
+            ></span>
+            <span
+              class="border-2 border-black text-white bg-black rounded-full px-2"
+              ><i class="fa-solid fa-chevron-right"></i
+            ></span>
+          </div>
+          <div class="pt-6">
+            <span class="text-gray-400"><a href="">Sign up</a></span>
+            <span
+              class="rounded-full text-black bg-white px-4 py-2 mt-4 font-bold"
+              ><a href="">Log in</a></span
+            >
+          </div>
+        </div>
+
+        <!-- main -->
+        <h1 class="font-bold text-2xl text-white pt-6 pl-4">Popular artists</h1>
+        <ul class="flex">
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.p2c2vfQSdHABectIelkvrQHaEc?w=291&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4 object-cover"
+            />
+            <h2 class="font-bold text-white px-4">Pritam</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.7z5PWYCHHjLg9j9QPdwDLwHaJo?w=187&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4"
+            />
+            <h2 class="font-bold text-white px-4">Arijit Singh</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th?id=OSK.xkrO0ziwtdjGSqtWJeyF6AHaLH&w=200&h=200&c=7&rs=1&o=6&dpr=1.3&pid=SANGAM"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4"
+            />
+            <h2 class="font-bold text-white px-4">A.R Rahman</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th?q=Parmish+Verma+Wallpaper+for+PC&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4"
+            />
+            <h2 class="font-bold text-white px-4">Parmish Verma</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th?q=Guru+Randhawa+Front+Face&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4"
+            />
+            <h2 class="font-bold text-white px-4">Guru Randhawa</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.pVL3SR8VMFL4Dtv5yCCY8gHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-[26vh] w-[30vh] rounded-full p-4"
+            />
+            <h2 class="font-bold text-white px-4">Vishal Mishra</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+        </ul>
+
+        <h1 class="font-bold text-2xl text-white pt-6 pl-4">Popular albums</h1>
+        <ul class="flex">
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.hvhvseQDwhwZCeDR_O1Y-QHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Ranjhanaa</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.G14GSRfoOmmY9e7Yq8c0fQAAAA?w=271&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Filhaal</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.Xakd3i1e2TJbn8NwD1mr7AHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Barish</h2>
+            <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.fpYERSwSq_gMIlbsmp-wHwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Apna bana le</h2>
+            <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.IVjVHhwymZVWyIB7VfxXcQHaHa?w=171&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Tere hawalwe</h2>
+            <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+          </li>
+
+          <li class="hover:bg-zinc-900">
+            <img
+              src="https://th.bing.com/th/id/OIP.mJnQ5ClWjVW5_zJKS6lp5gHaEK?w=279&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt=""
+              class="h-52 w-52 object-cover rounded-md p-4"
+            />
+            <h2 class="font-bold text-white px-4">Heeriye</h2>
+            <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+          </li>
+        </ul>
+        <!-- popular radio -->
+        <div>
+          <h1 class="font-bold text-2xl text-white pt-6 pl-4">Popular radio</h1>
+          <ul class="flex">
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.DSy70Q1UMmxbKtHa3tJFfgHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Bollywood Music</h2>
+              <h2 class="font-bold text-gray-400 px-4">Albums</h2>
+            </li>
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.K-Zoapc9cZmvOwbPo5lXbgHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Bollywood</h2>
+              <h2 class="font-bold text-gray-400 px-4">Albums</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.-iJxHoYWSAehcrxJWalhJQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Raabta</h2>
+              <h2 class="font-bold text-gray-400 px-4">Music</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.NgWqAusF0hWCtZVRP0QHgQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Bollywood Music</h2>
+              <h2 class="font-bold text-gray-400 px-4">Albums</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.3jXjaGTKThaFdxpYJqykuQHaHa?w=185&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Hits Song</h2>
+              <h2 class="font-bold text-gray-400 px-4">Albums</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.wMBVmVNpcyVArlfp1FVgLwHaGk?w=210&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Wake up Sid</h2>
+              <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="font-bold text-2xl text-white pt-6 pl-4">
+            Special playlist
+          </h1>
+          <ul class="flex">
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.AK98K20kzeQ3-LYss1BRXQHaHa?w=184&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Hamari Adhuri Kahani</h2>
+              <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+            </li>
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.i4SSvuDenqxpjdOlrCYb5AHaJ4?w=127&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Kaabil</h2>
+              <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.1sfftNcLNATJui3yAWd7rgHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Ve Maahi</h2>
+              <h2 class="font-bold text-gray-400 px-4">Artist</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.sfR1i5LOqjPbUDP5eDnquQHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Lagdi Lahore Di</h2>
+              <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.LfezpCpsp_LQqOz07e0FbwHaJQ?w=131&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Malang</h2>
+              <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+            </li>
+
+            <li class="hover:bg-zinc-900">
+              <img
+                src="https://th.bing.com/th/id/OIP.w3aMvWFWc96gy01XWeYkjAHaHa?w=158&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt=""
+                class="h-52 w-52 object-cover rounded-md p-4"
+              />
+              <h2 class="font-bold text-white px-4">Raamiyaa Vastamaiya</h2>
+              <h2 class="font-bold text-gray-400 px-4">Arijit Singh</h2>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div
+      class="flex flex-row items-center px-4 h-[10vh] m-2 justify-between bg-gradient-to-r from-pink-500 to-indigo-500 rounded-lg"
+    >
+      <div class="text-white font-semibold">
+        <h6 class="font-sm">Preview of Spotify</h6>
+        <h4 class="font-md">
+          Signup to get unlimited songs and podcastswith occasional ads. No
+          credit card required
+        </h4>
+      </div>
+      <div>
+        <button
+          class="px-8 py-3 rounded-full bg-white text-black font-bold text-md"
+        >
+          Sign up free
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
